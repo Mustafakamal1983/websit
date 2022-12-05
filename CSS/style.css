@@ -1,0 +1,76 @@
+/* universel selector */
+*{
+   margin: 0;
+padding: 0;
+/* border:0; */
+outline: 0;
+}
+
+/*name/Element selector */
+body{
+    background-color: darksalmon;
+}
+ img{
+width: 100px;
+ }
+/* id section */
+admin-box {
+width: 40%;
+background-color: brown;
+text-align:center;
+margin:50px auto;
+padding: 10px;
+}
+/*Grouping selector */
+input,
+label {
+    display: block;
+}
+input {
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+label {
+    font-size: 20px;
+    line-height: 20px;
+    margin:10px 0px ;
+}
+/*paused selector */
+input::placeholder {
+    color:rgb(250, 7, 19)
+}
+/* decendent selector */
+#admin-box h1 {
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+/*attribute selector */
+input[type="submit"] {
+    margin: 10px auto;
+    width: 50%;
+     font-size: 15px;
+     text-transform: uppercase;
+     transition: case-in-out 0.5s
+}
+/* psudo class selector*/
+input[type="submit"];hover {
+background-color:blue;
+color: brown;
+curser:pointer:
+}
+p {
+  font-size: 12px;
+  line-height: 12px;
+  margin: 10px 0px;
+}
+p a {
+    text-decoration: none;
+    color: (224, 113, 113);
+    text-transform: uppercase;
+    margin: 10px;
+}
